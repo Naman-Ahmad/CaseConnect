@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case Library - CaseConnect</title>
-    <meta name="description" content="Access curated case studies from top consulting firms, organized by industry and difficulty level.">
-    
+    <meta name="description"
+        content="Access curated case studies from top consulting firms, organized by industry and difficulty level.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- Header Navigation -->
     <header class="header">
@@ -21,7 +26,7 @@
             <div class="nav-brand">
                 <a href="index.html" class="logo">CaseConnect</a>
             </div>
-            
+
             <!-- Desktop Navigation -->
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -30,7 +35,7 @@
                 <li><a href="about.html" class="nav-link">About</a></li>
                 <li><a href="index.html#signup" class="nav-link btn-primary">Join Beta</a></li>
             </ul>
-            
+
             <!-- Mobile Menu Toggle -->
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span class="hamburger"></span>
@@ -53,14 +58,16 @@
         <section class="filter-section">
             <div class="container">
                 <div class="filter-bar">
-                    <label for="industry-filter" class="filter-label">Filter by Industry:</label>
+                    <label for="industry-filter" class="filter-label">Filter by Cateogry:</label>
                     <select id="industry-filter" class="filter-select">
-                        <option value="all">All Industries</option>
-                        <option value="consumer">Consumer Goods</option>
-                        <option value="tech">Technology</option>
-                        <option value="healthcare">Healthcare</option>
-                        <option value="financial">Financial Services</option>
-                        <option value="energy">Energy & Utilities</option>
+                        <option value="all">All </option>
+                        <option value="iim">IIM and other Case-books</option>
+                        <option value="books">Important Books</option>
+                        <option value="notes">Curated Notes</option>
+                        <option value="Industries">Industry knowledge </option>
+                        <option value="Guesstimates">Guesstimates</option>
+                        <option value="cv and Resume">CV and Resume Fix</option>
+                        <option value="video resources">Video resources</option>
                     </select>
                 </div>
             </div>
@@ -71,99 +78,131 @@
             <div class="container">
                 <div class="cases-grid">
                     <!-- Case Pack 1 -->
-                    <div class="case-card" data-industry="consumer">
+                    <div class="case-card" data-industry="iim ">
                         <div class="case-thumbnail">
-                            <img src="/placeholder.svg?height=200&width=300" alt="Consumer Goods Case Study" class="case-image">
+                            <img src="./assets/iim a cover.jpg " alt="Consumer Goods Case Study" class="case-image">
                         </div>
                         <div class="case-content">
-                            <h3 class="case-title">Consumer Brand Strategy</h3>
-                            <p class="case-description">Help a leading beverage company expand into new markets while maintaining brand identity.</p>
+                            <h3 class="case-title">IIMA casebook</h3>
+                            <p class="case-description">learn from top iims resources.</p>
                             <div class="case-meta">
                                 <span class="case-industry">Consumer Goods</span>
                                 <span class="case-difficulty">Intermediate</span>
                             </div>
-                            <a href="#" class="btn btn-outline case-download">Download PDF</a>
+                            <a href="https://drive.google.com/file/d/148Gy4TBK-h5PccPVSgf13c3YeVzE53et/view?usp=drive_link"
+                                class="btn btn-outline case-download">Download PDF</a>
                         </div>
                     </div>
 
                     <!-- Case Pack 2 -->
-                    <div class="case-card" data-industry="tech">
+                    <div class="case-card" data-industry="iim">
                         <div class="case-thumbnail">
-                            <img src="/placeholder.svg?height=200&width=300" alt="Tech Strategy Case Study" class="case-image">
+                            <img src="./assets/hindu case book cover.png" alt="Tech Strategy Case Study"
+                                class="case-image">
                         </div>
                         <div class="case-content">
-                            <h3 class="case-title">Tech Platform Growth</h3>
-                            <p class="case-description">Analyze growth strategies for a B2B SaaS platform looking to scale internationally.</p>
+                            <h3 class="case-title">The Hindu Case Book</h3>
+                            <p class="case-description">This casebook has a pool of frameworks, concepts, cases and
+                                analysis. Before reading, keep a few tips in mind. Never try to remember a case or a
+                                framework since frameworks need to be......</p>
                             <div class="case-meta">
                                 <span class="case-industry">Technology</span>
                                 <span class="case-difficulty">Advanced</span>
                             </div>
-                            <a href="#" class="btn btn-outline case-download">Download PDF</a>
+                            <a href="https://drive.google.com/file/d/1KtC-_RUjaFluYtp_TAGR0IwstccRv03D/view?usp=sharing"
+                                class="btn btn-outline case-download">Download PDF</a>
                         </div>
                     </div>
 
                     <!-- Case Pack 3 -->
-                    <div class="case-card" data-industry="healthcare">
+                    <div class="case-card" data-industry="iim">
                         <div class="case-thumbnail">
-                            <img src="/placeholder.svg?height=200&width=300" alt="Healthcare Case Study" class="case-image">
+                            <img src="./assets/Screenshot 2025-07-02 130238.png " alt="Healthcare Case Study"
+                                class="case-image">
                         </div>
                         <div class="case-content">
-                            <h3 class="case-title">Hospital Operations</h3>
-                            <p class="case-description">Optimize operations for a regional hospital network to reduce costs and improve patient outcomes.</p>
+                            <h3 class="case-title">DTU Case Book</h3>
+                            <p class="case-description">“Delhi Technological University has continued on the path of
+                                excellence in education
+                                for nearly 80 years, producing extremely capable and competent professionals. With
+                                the onset of a new academic year, and given the difficult times we are facing,.</p>
                             <div class="case-meta">
                                 <span class="case-industry">Healthcare</span>
                                 <span class="case-difficulty">Intermediate</span>
                             </div>
-                            <a href="#" class="btn btn-outline case-download">Download PDF</a>
+                            <a href="https://drive.google.com/file/d/1SlXRQsUGRsJCNMd6l9NAdzxokzN4YH4D/view?usp=sharing"
+                                class="btn btn-outline case-download">Download PDF</a>
                         </div>
                     </div>
 
                     <!-- Case Pack 4 -->
-                    <div class="case-card" data-industry="financial">
+                    <div class="case-card" data-industry="books">
                         <div class="case-thumbnail">
-                            <img src="/placeholder.svg?height=200&width=300" alt="Financial Services Case Study" class="case-image">
+                            <img src="./assets/books.avif" alt="Financial Services Case Study" class="case-image">
                         </div>
                         <div class="case-content">
-                            <h3 class="case-title">Digital Banking</h3>
-                            <p class="case-description">Help a traditional bank develop a digital-first strategy to compete with fintech startups.</p>
+                            <h3 class="case-title">Books</h3>
+                            <p class="case-description">learn from best curated books followed by every IIM Student.</p>
                             <div class="case-meta">
                                 <span class="case-industry">Financial Services</span>
                                 <span class="case-difficulty">Advanced</span>
                             </div>
-                            <a href="#" class="btn btn-outline case-download">Download PDF</a>
+                            <a href="https://drive.google.com/drive/folders/1Uz3URTnaqZtDo_W9PYmg6tvQOWFge1Bm?usp=drive_link"
+                                class="btn btn-outline case-download">Download PDF</a>
                         </div>
                     </div>
 
                     <!-- Case Pack 5 -->
-                    <div class="case-card" data-industry="energy">
+                    <div class="case-card" data-industry="Guesstimates">
                         <div class="case-thumbnail">
-                            <img src="/placeholder.svg?height=200&width=300" alt="Energy Case Study" class="case-image">
+                            <img src="./assets/guesstimates.avif" alt="Energy Case Study" class="case-image">
                         </div>
                         <div class="case-content">
-                            <h3 class="case-title">Renewable Energy Transition</h3>
-                            <p class="case-description">Guide an energy company's transition from fossil fuels to renewable energy sources.</p>
+                            <h3 class="case-title">Guesstimates</h3>
+                            <p class="case-description">okay lets braining and guessing with real world problems like
+                                how many cricket balls can fit in a passenger plane ...</p>
                             <div class="case-meta">
                                 <span class="case-industry">Energy & Utilities</span>
                                 <span class="case-difficulty">Advanced</span>
                             </div>
-                            <a href="#" class="btn btn-outline case-download">Download PDF</a>
+                            <a href="https://drive.google.com/drive/folders/1vGdIWIShJvk9q6TWyGDMQx8YapkTOdbg?usp=drive_link"
+                                class="btn btn-outline case-download">Download PDF</a>
                         </div>
                     </div>
 
                     <!-- Case Pack 6 -->
-                    <div class="case-card" data-industry="consumer">
+                    <div class="case-card" data-industry="business week">
                         <div class="case-thumbnail">
-                            <img src="/placeholder.svg?height=200&width=300" alt="Retail Case Study" class="case-image">
+                            <img src="./assets/business week cover.jpg" alt="Retail Case Study" class="case-image">
                         </div>
                         <div class="case-content">
-                            <h3 class="case-title">Retail Turnaround</h3>
-                            <p class="case-description">Develop a turnaround strategy for a struggling retail chain facing online competition.</p>
+                            <h3 class="case-title">Business Week</h3>
+                            <p class="case-description">Grasp the trend and move with it. Learn about each and every hot
+                                topic of the Business World.</p>
                             <div class="case-meta">
                                 <span class="case-industry">Consumer Goods</span>
                                 <span class="case-difficulty">Beginner</span>
                             </div>
                             <a href="#" class="btn btn-outline case-download">Download PDF</a>
                         </div>
+
+                        <!-- Case Pack 7 -->
+                        <div class="case-card" data-industry="video resources ">
+                            <div class="case-thumbnail">
+                                <img src="./assets/resources cover.webp" alt="Video resources" class="case-image">
+                            </div>
+                            <div class="case-content">
+                                <h3 class="case-title">Video and Resources</h3>
+                                <p class="case-description">Learn from eminent Tutors and practice with the same enthu bacause you have all resources that they have  .</p>
+                                <div class="case-meta">
+                                    <span class="case-industry">Consumer Goods</span>
+                                    <span class="case-difficulty">Intermediate</span>
+                                </div>
+                                <a href="https://drive.google.com/file/d/148Gy4TBK-h5PccPVSgf13c3YeVzE53et/view?usp=drive_link"
+                                    class="btn btn-outline case-download">Download PDF</a>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -205,4 +244,5 @@
     <!-- JavaScript -->
     <script src="js/app.js"></script>
 </body>
+
 </html>
